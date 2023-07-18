@@ -1,0 +1,71 @@
+@media(max-width: 1200px){
+    .waxom_banner_text h2{
+        font-size: 45px;
+    }
+}
+@media(max-width: 991px){
+
+    .waxon_nav ul{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: -250px;
+        width: 250px;
+        height: 100vh;
+        background: -o-linear-gradient(45deg, rgb(39, 30, 27), rgb(75, 50, 38));
+        background: linear-gradient(45deg, rgb(39, 30, 27), rgb(75, 50, 38));
+        padding: 50px 30px;
+    }
+    .waxon_nav ul li{
+        margin: 15px 0;
+    }
+    .waxon_menu_icon{
+        display: block;
+        text-align: right;
+    }
+    .waxon_menu_icon i{
+        color: #fff;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .waxon_menu_icon i.fa-xmark{
+        display: none;
+    }
+    .waxom_video_text{
+        width: 80%;
+    }
+    .waxom_mobile_content{
+        margin-top: 35px;
+    }
+    .waxom_mobile_bottom_text{
+        margin-bottom: 60px;
+    }
+    .waxom_recent_items{
+        margin: 0 0 30px;
+    }
+}
+
+@media(max-width: 575px){
+    .waxom_banner_text h5{
+        font-size: 23px;
+    }
+    .waxom_banner_text h2{
+        font-size: 30px;
+    }
+    .waxom_banner_text p{
+        font-size: 13px;
+    }
+    .waxom_idea_bottom_text h4{
+        font-size: 20px;
+    }
+    .waxom_idea_bottom_text p{
+        font-size: 14px;
+    }
+    .waxom_video_text{
+        width: 100%;
+    }
+    .waxom_mobile_content h4{
+        font-size: 22px;
+    }
+
+}
